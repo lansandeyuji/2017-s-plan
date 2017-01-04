@@ -106,5 +106,10 @@
 
  - clientHeight offsetHeight  scrollHeight scrollTop offsetTop http://imweb.io/topic/57c5409e808fd2fb204eef52 https://developer.mozilla.org/en-US/docs/Web/API/Element/clientHeight
 
- - 频道直播页：http://v.qq.com/x/live/index.html 
- http://git.code.oa.com/vfe/v.qq.com_live 有5个page 采用autonode
+ - 萌生下面两个页面源码的 源头在于 看了km收藏的文章，老大分享的直出页面node服务，以及同事分享的组件化开发，以及库 http://scrat.io/#!/quick-start 设计思想类似下午看的vue 
+
+	 * 频道直播页：http://v.qq.com/x/live/index.html 
+	 http://git.code.oa.com/vfe/v.qq.com_live 有5个page 采用autonode
+
+	 * 演唱会频道页 http://v.qq.com/livemusic/
+	 http://git.code.oa.com/vfe/v.qq.com_livemusic 采用autonode 后台直出页面 + browser交互
