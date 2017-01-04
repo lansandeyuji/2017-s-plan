@@ -1,7 +1,8 @@
 # 2017时间线
-2017.1.3
- - 2017计划概要完成
 
+##2017.1.3
+
+ - 2017计划概要完成
  - vue 慕课网 入门教学：
  	1.使用vue-cli命令包
  	2.使用vue 脚手架-webpack打包方式进行初始化项目，实现页面自动编译刷新等。
@@ -16,15 +17,15 @@
     一定要返回promise对象，否则 会遗漏某个分支流程。 
     采用catch来捕获reject的promise 
     请大家记住三点：
-		回调方法中一定要使用return语句，避免调用者丢失其处理状态与结果。
+		**回调方法中一定要使用return语句，避免调用者丢失其处理状态与结果。
 		在promise实例的最后使用catch方法，用来做整体的异常捕获与处理。
-		利用Promise.then方法对回调函数返回结果的封装，写出清晰漂亮的链式调用代码。
+		利用Promise.then方法对回调函数返回结果的封装，写出清晰漂亮的链式调用代码。**
 
-2017.1.4
+##2017.1.4
  - 作用域：函数作用域和块级作用域.块级作用域是指一对花括号包围的。而函数作用域是在一个函数内
  比如以下代码： 
-
- ```javascript
+```javascript
+ 	
  	int main(){
  	int i=1;
  		if(i){
@@ -104,3 +105,6 @@
  函数节流的经典应用场景：onresize，scroll，mousemove ,mousehover等事件回调函数的无间断执行。其主要实现思路就是通过setTimeout定时器，通过设置缓冲时间，在第一次调用时，创建定时器，并在定时时间结束调用。第二次调用时，会清除前一个定时器并设置新的定时器。如果这时前一个定时器暂未执行，则将其替换为新的定时器。目的在于在一定的时间内，保证多次函数的请求只执行最后一次调用。
 
  - clientHeight offsetHeight  scrollHeight scrollTop offsetTop http://imweb.io/topic/57c5409e808fd2fb204eef52 https://developer.mozilla.org/en-US/docs/Web/API/Element/clientHeight
+
+ - 频道直播页：http://v.qq.com/x/live/index.html 
+ http://git.code.oa.com/vfe/v.qq.com_live 有5个page 采用autonode
